@@ -10,6 +10,9 @@ module.exports = {
   organizationName: 'odglobal', // Usually your GitHub org/user name.
   projectName: 'springboot ddd starter', // Usually your repo name.
   themeConfig: {
+    prism: {
+      additionalLanguages: ['java'],
+    },
     navbar: {
       title: 'SpringBoot DDD Starter',
       logo: {
